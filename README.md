@@ -35,3 +35,8 @@ jupyter notebook
 
 Vous pouvez maintenant travailler avec les *notebooks*. Ceux-ci sont proposés
 comme outil pour vous aider à vous familiariser avec le langage.
+
+## Ressources
+
+Durant la formation, des ressources complémentaires peuvent être disponibles
+[sur le partage suivant](https://goo.gl/lRyzMZ).
