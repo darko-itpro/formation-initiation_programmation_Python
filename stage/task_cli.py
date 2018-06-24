@@ -14,7 +14,7 @@ def add_task():
 
 
 def next_task():
-    n_task = tm.next(tasks)
+    n_task = tm.next_item(tasks)
     if n_task:
         print("Prochaine tâche :", n_task[0])
     else:
@@ -22,9 +22,8 @@ def next_task():
 
 
 while True:
-    actions = {}
-    actions['a'] = add_task
-    actions['n'] = next_task
+    actions = {'a': add_task,
+               'n': next_task}
 
     print("""Options:
     [a] ajouter une tâche
