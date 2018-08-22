@@ -7,6 +7,15 @@ HIGH = 2
 
 
 def add_to(collection, title, priority=0):
+    """
+    Ajoute une tâche à une liste de tâches.
+
+    :param collection: une liste de tâches
+    :type collection: list
+    :param title: titre de la tâche
+    :param priority: priorité représentée sous la forme d'un entier de 0 à 2
+    :return: la liste de tâches
+    """
     collection.append([title, priority, False])
     return collection
 
