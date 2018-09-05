@@ -24,8 +24,7 @@ def add_movie(collection, title, duration=None, viewed=False):
     :type viewed: bool
     :return: la collection de films avec le film ajouté
     """
-    collection.append([title, duration, viewed])
-    return collection
+    pass
 
 
 def time_remaining(collection):
@@ -37,8 +36,4 @@ def time_remaining(collection):
     :return: la durée des média restant à voir
     :rtype: int
     """
-    return sum([time for title, time, viewed in collection if not viewed])
-
-
-if __name__ == '__main__':
     pass

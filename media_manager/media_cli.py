@@ -16,8 +16,8 @@ def add_movie():
 
 
 def remaining_time():
-    # TODO: Ajouter ce qui manque
-    hours_remaining, minutes_remaining = 0, 0
+    total_time = mm.time_remaining(movies_collection)
+    hours_remaining, minutes_remaining = divmod(total_time, 60)
     print("-----")
     print("Vous avez {:2}h{:2} de films à regarder".format(hours_remaining,
                                                            minutes_remaining))
