@@ -54,7 +54,3 @@ def time_remaining(collection):
     return sum([time
                 for title, time, viewed in list(collection.values())
                 if not viewed])
-
-
-if __name__ == '__main__':
-    pass
