@@ -1,9 +1,5 @@
 #!/usr/bin/env python
 
-"""
-Module proposant une gestion des données par dictionnaires
-"""
-
 
 def create_collection():
     """
@@ -31,15 +27,8 @@ def add_movie(collection, title, duration=None, viewed=False):
     if title in collection:
         raise ValueError("Media already in collection")
 
-    collection[title] = dict(duration=duration, viewed=viewed)
+    collection[title] = [title, duration, viewed]
     return collection
-
-
-def set_as_viewed(collection, title):
-    if title not in collection:
-        raise ValueError('Movie [{}] not in collection'.format(title))
-
-    collection[title]["viewed"] = True
 
 
 def time_remaining(collection):
