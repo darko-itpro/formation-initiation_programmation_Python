@@ -2,7 +2,7 @@
 
 from stage import media_manager as mm
 
-movies_collection = []
+movies_collection = mm.create_collection()
 
 
 def add_movie():
