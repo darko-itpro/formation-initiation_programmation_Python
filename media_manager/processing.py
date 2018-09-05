@@ -80,4 +80,6 @@ def time_remaining(collection):
     :return: la durée des média restant à voir
     :rtype: int
     """
-    return sum([time for title, time, viewed in collection if not viewed])
+    return sum([time
+                for title, time, viewed in collection
+                if not viewed])

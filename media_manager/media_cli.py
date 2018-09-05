@@ -1,6 +1,6 @@
-#!/usr/bin/env python 
+#!/usr/bin/env python
 
-from media_manager import media_manager as mm
+from media_manager import processing as mm
 
 movies_collection = mm.create_collection()
 
@@ -19,7 +19,8 @@ def remaining_time():
     total_time = mm.time_remaining(movies_collection)
     hours_remaining, minutes_remaining = divmod(total_time, 60)
     print("-----")
-    print("Vous avez {:2}h{:2} de films à regarder".format(hours_remaining,
+    # ci-dessous, {:02}, 0 est le caractère de remplissage
+    print("Vous avez {:2}h{:02} de films à regarder".format(hours_remaining,
                                                            minutes_remaining))
 
 
