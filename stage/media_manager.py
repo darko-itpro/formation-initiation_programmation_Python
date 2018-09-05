@@ -1,5 +1,9 @@
 #!/usr/bin/env python
 
+"""
+Module de gestion des données par listes
+"""
+
 
 def create_collection():
     """
@@ -24,7 +28,46 @@ def add_movie(collection, title, duration=None, viewed=False):
     :type viewed: bool
     :return: la collection de films avec le film ajouté
     """
+    if title in [media[0] for media in collection]:
+        raise ValueError("Media already in collection")
+
     collection.append([title, duration, viewed])
+    return collection
+
+
+def set_as_viewed(collection, title):
+    """
+    Change le statut vu d'un média, implémentation par recherche d'élément
+
+    :param collection: une liste de médias
+    :param title: le titre à mettre à jour
+    :return: la collection des médias
+    """
+    for movie in collection:
+        if title == movie[0]:
+            movie[2] = True
+            break
+    else:
+        raise ValueError('Movie [{}] not in collection'.format(title))
+
+    return collection
+
+
+def set_as_viewed_v2(collection, title):
+    """
+    Change le statut vu d'un média, implémentation par recherche d'indice de
+    l'élément
+
+    :param collection: une liste de médias
+    :param title: le titre à mettre à jour
+    :return: la collection des médias
+    """
+    try:
+        media_index = [media[0] for media in collection].index(title)
+    except ValueError:
+        raise ValueError('Movie [{}] not in collection'.format(title))
+    collection[media_index][2] = True
+
     return collection
 
 
