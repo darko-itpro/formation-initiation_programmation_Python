@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-from media_manager import processing as mm
+from media_manager import media as mm
 
 movies_collection = mm.create_collection()
 

@@ -16,7 +16,7 @@ def create_collection():
     return list()
 
 
-def add_movie(collection, title, duration=None, viewed=False):
+def add_movie(collection, title, duration, viewed):
     """
     Ajoute les information d'un film à la collection
 

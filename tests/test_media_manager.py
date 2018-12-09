@@ -1,7 +1,7 @@
 #!/usr/bin/env python 
 
 import unittest as ut
-from media_manager import processing as mm
+from media_manager import media as mm
 
 
 class TestCreateCollection(ut.TestCase):

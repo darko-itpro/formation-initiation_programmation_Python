@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 import pytest
-from media_manager import processing as mm
+from media_manager import media as mm
 
 
 def test_new_collection_is_data():
@@ -10,6 +10,15 @@ def test_new_collection_is_data():
 
 def test_new_collection_is_empty():
     assert len(mm.create_collection()) == 0
+
+
+class TestNewCollection:
+    def test_new_collection_is_data(self):
+        assert mm.create_collection() is not None
+
+
+    def test_new_collection_is_empty(self):
+        assert len(mm.create_collection()) == 0
 
 
 @pytest.fixture
