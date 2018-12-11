@@ -26,7 +26,7 @@ def add_movie(collection, title, duration, viewed):
     :param duration: la durée du film en minutes
     :param viewed: indique si le film a été vu ou non
     :type viewed: bool
-    :return: la collection de films avec le film ajouté
+    :return: None
     """
     pass
 

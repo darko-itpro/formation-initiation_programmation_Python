@@ -26,13 +26,11 @@ def add_movie(collection, title, duration=None, viewed=False):
     :param duration: la durée du film en minutes
     :param viewed: indique si le film a été vu ou non
     :type viewed: bool
-    :return: la collection de films avec le film ajouté
     """
     if title in collection:
         raise ValueError("Media already in collection")
 
     collection[title] = dict(duration=duration, viewed=viewed)
-    return collection
 
 
 def set_as_viewed(collection, title):
