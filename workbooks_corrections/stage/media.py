@@ -18,3 +18,10 @@ def add_media(collection, title, year, duration, viewed):
     """
     collection.append([title, year, duration, viewed])
     return collection
+
+
+my_collection = []
+print(len(my_collection))
+
+add_media(my_collection, "The Philosopher's Stone", 2001, 152, False)
+print(my_collection)
