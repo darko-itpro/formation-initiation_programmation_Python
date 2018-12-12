@@ -5,30 +5,26 @@ def create_collection():
     """
     Crée une nouvelle collection vide.
 
-    Cette méthode retourne un dictionnaire car c'est sous forme de ce type que
-    ce module gère les collections.
+    Cette méthode retourne une liste car c'est sous forme de ce type que ce
+    module gère les collections.
     :return: une nouvelle collection vide
     """
-    return dict()
+    return list()
 
 
-def add_movie(collection, title, duration=None, viewed=False):
+def add_movie(collection, title, duration, viewed):
     """
     Ajoute les information d'un film à la collection
 
     :param collection: une liste de films
-    :type collection: dict
+    :type collection: list
     :param title: le titre du film
     :param duration: la durée du film en minutes
     :param viewed: indique si le film a été vu ou non
     :type viewed: bool
-    :return: la collection de films avec le film ajouté
+    :return: None
     """
-    if title in collection:
-        raise ValueError("Media already in collection")
-
-    collection[title] = [title, duration, viewed]
-    return collection
+    pass
 
 
 def time_remaining(collection):
@@ -40,6 +36,4 @@ def time_remaining(collection):
     :return: la durée des média restant à voir
     :rtype: int
     """
-    return sum([time
-                for title, time, viewed in list(collection.values())
-                if not viewed])
+    pass

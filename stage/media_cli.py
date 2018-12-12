@@ -1,6 +1,6 @@
 #!/usr/bin/env python 
 
-from stage import processing as mm
+from stage import media as mm
 
 movies_collection = mm.create_collection()
 
