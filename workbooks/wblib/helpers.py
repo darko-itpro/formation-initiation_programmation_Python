@@ -9,13 +9,3 @@ Notez également que ce commentaire est une documentation du module. Il s'agit
 d'une docstring du module.
 """
 
-
-def duration_for(how_many: int, unit_duration=7):
-    """
-    Returns the duration for how_namy units of unit_duration.
-
-    :param how_many: the number of units
-    :param unit_duration: the duration of an unit
-    :return: the product of both parameters.
-    """
-    return int(how_many) * int(unit_duration)
