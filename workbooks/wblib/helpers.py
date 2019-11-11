@@ -8,4 +8,3 @@ d'autres modules (fichiers texte avec l'extension .py).
 Notez également que ce commentaire est une documentation du module. Il s'agit
 d'une docstring du module.
 """
-

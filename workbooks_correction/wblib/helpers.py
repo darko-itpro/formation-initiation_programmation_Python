@@ -14,8 +14,14 @@ def duration_for(how_many: int, unit_duration=7):
     """
     Returns the duration for how_namy units of unit_duration.
 
-    :param how_many: the number of units
-    :param unit_duration: the duration of an unit
+    :param how_many: the number of units, must be positive or 0
+    :param unit_duration: the duration of an unit, must be positive or 0
     :return: the product of both parameters.
+    :raise ValueError: if any parameter is a negative value
     """
-    return int(how_many) * int(unit_duration)
+    how_many = int(how_many)
+    unit_duration = int(unit_duration)
+    if how_many < 0 or unit_duration < 0:
+        raise ValueError("Duration parameters should be positive or 0")
+
+    return how_many * unit_duration
