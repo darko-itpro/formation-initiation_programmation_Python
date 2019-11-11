@@ -1,22 +1,25 @@
 # Initiation Programmation
 
-This is the practical cases for the computer programming training I provide. Intended for french
-trainee, the rest of the explanations are in french.
+This is the practical cases for the computer programming training I provide.
+Intended for french trainee, the rest of the explanations are in french.
 
 Ce référentiel est le support de ma formation d'initiation à la programmation.
 Il est destiné à mes stagiaires.
+
+[![License](https://img.shields.io/github/license/darko-itpro/training-python.svg?style=plastic)](https://github.com/darko-itpro/initiation-programmation/blob/master/LICENSE)
 
 Ces sources sont organisées pour suivre le déroulement de la formation tout en
 respectant l'organisation d'un package.
 
 ## Mise en place de l'environnement
-Il faut commencer par récupérer les sources en local.
+Le gestionnaire de dépendances [pip](https://pypi.python.org/pypi/pip) doit être
+installé et accessible.
 
-Ce projet ne nécessite que deux dépendances : Jupyter et iPython. La
-particularité est que iPython est une dépendance de Jupyter.
+Deux dépendances sont nécessaires : Jupyter et iPython. iPython étant une
+dépendance de Jupyter, vous ne devez installer que ce dernier par l'instruction
 
 Pour mettre à jour l'environnement, Assurez-vous dans un premier temps que
-[pip](https://pypi.python.org/pypi/pip) est installé. Placez vous alors à la
+est installé. Placez vous alors à la
 racine du projet. Puisque le projet ne nécessite qu'une seule dépendance, vous
 pouvez exécuter l'instruction
 
