@@ -12,6 +12,7 @@ Ces sources sont organisées pour suivre le déroulement de la formation tout en
 respectant l'organisation d'un package.
 
 ## Mise en place de l'environnement
+### Procédure standard
 Le gestionnaire de dépendances [pip](https://pypi.python.org/pypi/pip) doit être
 installé et accessible.
 
@@ -34,6 +35,14 @@ suivante :
 ```
 pip install -r requirements.txt
 ```
+
+### Avec Anaconda
+Anaconda est une plate-forme destinée au Data Science qui intègre tous les
+outils dédiés. Jupyter est donc une dépendance incluse dans Anaconda. L'outil
+est beaucoup plus volumineux mais a l'avantage de permettre de contourner
+tout problème lié à l'accès à Internet dans le cadre de la formation.
+
+Pous pouvez télécharger Anaconda sur le [site officiel](https://www.anaconda.com/).
 
 ## Cahiers d'exercices
 Le répertoire *workbooks* contient des *cahiers d'exercices*. Ceux-ci sont
