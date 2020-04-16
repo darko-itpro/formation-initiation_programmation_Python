@@ -23,6 +23,14 @@ class TestNewCollection:
 
 @pytest.fixture
 def new_collection():
+    """
+    Un fixture permet d'injecter une donnée dans un test. Elle permet ainsi de s'assurer d'avoir toujours la même
+    donnée.
+
+    Cette fixture retourne une collection créée par la fonction create_collection.
+
+    :return:
+    """
     return mm.create_collection()
 
 
