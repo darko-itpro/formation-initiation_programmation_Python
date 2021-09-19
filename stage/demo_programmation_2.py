@@ -1,11 +1,14 @@
 """
 Ceci est un programme montrant quelque chose de plus complexe.
+
+Ce programme utilise des dates avec le module datetime qui ne sera pas
+abordé dans cette formation.
 """
 
-# L'intéraction de ce type ne sera pas vue dans la formation
-try:
-    days = int(input("Combien de jours de formation ? "))
-    print(f"Votre formation a une durée de {7 * days} heures")
+import datetime as dt
 
-except ValueError:
-    print("Vous auriez dû saisir un nombre")
+today = dt.date.today()
+xmas = today.replace(month= 12, day=25)
+to_xmas = xmas - today
+
+print(f"Il reste {to_xmas.days} jours jusqu'à Noël")
