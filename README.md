@@ -61,4 +61,4 @@ comme outil pour vous aider à vous familiariser avec le langage.
 ## Ressources
 
 Durant la formation, des ressources complémentaires peuvent être disponibles
-[sur le partage suivant](https://goo.gl/lRyzMZ).
+[sur le partage suivant](https://drive.google.com/drive/folders/0B0VMWUAuE_ZFU0ZrY2hDUC1XTlU?resourcekey=0-vOw0a3-hysmCsuKOwi3qkA&usp=sharing).
