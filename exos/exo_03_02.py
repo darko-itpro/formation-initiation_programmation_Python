@@ -1,4 +1,3 @@
-
 episode_viewed = ["The new Project", 1, 98, 4]
 episode_not_viewed = ['Installing the softwares', 2, 42, 0]
 
