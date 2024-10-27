@@ -1,6 +1,6 @@
 
-episode_viewed = ["The new Project", 1, 98, True]
-episode_not_viewed = ['Installing the softwares', 2, 42, False]
+training_to_cancel = ["Python, initiation", 2, 1200, False]
+training_to_maintain = ["Django, initiation", 4, 2200, True]
 
-episode = episode_viewed
-# episode = episode_not_viewed
+training = training_to_maintain
+# training = training_to_cancel
