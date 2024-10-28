@@ -4,3 +4,9 @@ training_to_maintain = ["Python, les fondamentaux", 5, 2600, 4]
 
 training = training_to_maintain
 # training = training_to_cancel
+
+if training[3]:
+    print("Formation assurée")
+else:
+    print("Formation annulée")
+
