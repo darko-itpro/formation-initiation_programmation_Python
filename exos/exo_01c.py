@@ -1,1 +1,5 @@
-duration = input('Quelle durée (en jours) pour votre formation ? ')
+
+duration:int
+duration = int(input('Quelle durée (en jours) pour votre formation ? '))
+
+print(duration * 7)
