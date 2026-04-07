@@ -36,9 +36,15 @@ premiers de cette liste `students` où N est le nombre de places disponibles pou
 Créez une deuxième liste qui représente la liste d'attente, c'est à dire à partir d'après le 
 dernier stagiaire affecté à la formation jusqu'à la fin.
 
+Créez la fonction `get_training_groups(registered_students: list, max_students: int) -> tuple(list, list)`
+et déplacez-y le code.
+
+Cette fonction doit donc retourner deux listes : la liste des inscrits à la formation et la liste 
+d'attente. 
+
 ## Deuxième question
-Si votre code fonctionne, modifiez la donnée des stagiaires par la suivante (la liste est réduite à 
-10 stagiaires) :
+Si votre code fonctionne, utilisez comme paramètre d'entrée la liste suivante (la liste est réduite 
+à 10 stagiaires) :
 ```python
 students = [{'name': 'Éric de Voisin', 'company': 'Petitjean Bonnet et Fils'},
             {'name': 'Richard Lamy', 'company': 'Bertin SA'},

@@ -11,8 +11,10 @@ training = {"title":"Python, les fondamentaux",
 ```
 
 ## Première question
-Écrivez une fonction `add_student(training:dict, student:dict)` qui ajoute un stagiaire à une 
-formation. Pour tester, vous pouvez utiliser la donnée de formation ci-dessus et une donnée de 
+Écrivez une fonction `add_student(training:dict, student:dict) -> None` qui ajoute un stagiaire à une 
+formation.
+
+Pour tester, vous pouvez utiliser la donnée de formation ci-dessus et une donnée de 
 stagiaire de l'exercice précédent.
 
 ## Seconde question
