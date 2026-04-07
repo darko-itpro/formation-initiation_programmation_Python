@@ -1,0 +1,34 @@
+site_name: Initiation à la programmation, avec Python
+repo_url: https://github.com/darko-itpro/formation-initiation_programmation_Python
+plugins:
+theme:
+  name: material
+  features:
+    - navigation.indexes
+markdown_extensions:
+  - attr_list
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+nav:
+  - Home: index.md
+  - En français:
+    - fr/index.md
+    - Exercices:
+      - fr/activities/exo_01.md
+      - fr/activities/exo_02.md
+      - fr/activities/exo_03.md
+      - fr/activities/exo_04.md
+      - fr/activities/exo_05.md
+      - fr/activities/exo_06.md
+      - fr/activities/exo_07.md
+      - fr/activities/exo_08.md
+      - fr/activities/exo_09.md
+      - fr/activities/exo_10.md
+  - In English:
+    - en/index.md
