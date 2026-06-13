@@ -7,9 +7,13 @@ Ce référentiel est le support de ma formation d'initiation à la programmation
 Il est destiné à mes stagiaires.
 
 [![License](https://img.shields.io/github/license/darko-itpro/training-python.svg?style=plastic)](https://github.com/darko-itpro/initiation-programmation/blob/master/LICENSE)
+[![Static Badge](https://img.shields.io/badge/Github-Documentation-blue?logo=github)](https://darko-itpro.github.io/formation-initiation_programmation_Python/)
 
 Ces sources sont organisées pour suivre le déroulement de la formation tout en
 respectant l'organisation d'un package.
+
+Les exercices sont diffusés sous forme de doc incluse dans le projet mais également déployée sous 
+forme d'une [documentation GitHub](https://darko-itpro.github.io/formation-initiation_programmation_Python/)
 
 ## Mise en place de l'environnement
 ### Installer Python
